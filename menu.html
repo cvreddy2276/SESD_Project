@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 2: Pre-order Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reserve.html">Reserve</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <header>
+            <h1>Pre-order Your Meal</h1>
+            <p>Step 2: Save time by ordering your food now.</p>
+        </header>
+
+        <div id="booking-info-display" class="booking-info">
+            <h3>Your Reservation:</h3>
+            <p>Loading details...</p>
+        </div>
+
+        <form id="pre-order-form">
+            <section class="form-section">
+                <h2>Menu</h2>
+                <div id="menu-items">
+                    </div>
+
+                <h3>Your Order Summary</h3>
+                <div id="order-summary">
+                    <ul id="order-list">
+                        <li>Your order is empty.</li>
+                    </ul>
+                    <div class="total-price">
+                        <strong>Total: $<span id="total-price">0.00</span></strong>
+                    </div>
+                </div>
+            </section>
+
+            <button type="submit" class="btn">Confirm Reservation & Order</button>
+        </form>
+    </main>
+    
+    <script src="menu.js"></script>
+</body>
+</html>
